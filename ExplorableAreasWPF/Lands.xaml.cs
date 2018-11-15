@@ -30,17 +30,17 @@ namespace ExplorableAreasWPF
             switch(bt_Uno.Content)
             {
                 case "Lake":
-                    // img_Background.Source = ;
+                    img_Background.Source = new BitmapImage(new Uri("Lake.png", UriKind.Relative));
                     bt_Uno.Content = "Beach";
                     bt_Dous.Content = "Mountain";
                     break;
                 case "Beach":
-                    // img_Background.Source = ;
+                    img_Background.Source = new BitmapImage(new Uri("Beach.png", UriKind.Relative));
                     bt_Uno.Content = "Lake";
                     bt_Dous.Content = "Mountain";
                     break;
                 case "Mountain":
-                    // img_Background.Source = ;
+                    img_Background.Source = new BitmapImage(new Uri("Mountains.png", UriKind.Relative));
                     bt_Uno.Content = "Beach";
                     bt_Dous.Content = "Lake";
                     break;
@@ -52,17 +52,17 @@ namespace ExplorableAreasWPF
             switch (bt_Dous.Content)
             {
                 case "Lake":
-                    // img_Background.Source = ;
+                    img_Background.Source = new BitmapImage(new Uri("Lake.png", UriKind.Relative));
                     bt_Uno.Content = "Beach";
                     bt_Dous.Content = "Mountain";
                     break;
                 case "Beach":
-                    // img_Background.Source = ;
+                    img_Background.Source = new BitmapImage(new Uri("Beach.png", UriKind.Relative));
                     bt_Uno.Content = "Lake";
                     bt_Dous.Content = "Mountain";
                     break;
                 case "Mountain":
-                    // img_Background.Source = ;
+                    img_Background.Source = new BitmapImage(new Uri("Mountains.png", UriKind.Relative));
                     bt_Uno.Content = "Lake";
                     bt_Dous.Content = "Beach";
                     break;
